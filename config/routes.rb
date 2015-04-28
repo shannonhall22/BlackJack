@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get("/blackjack", {:controller => "blackjack", :action => "deal"})
+  get("/true", {:controller => "blackjack", :action => "true"})
 
 
   # The priority is based upon order of creation: first created -> highest priority.
